@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--https://developer.android.com/guide/topics/ui/menus#xml-->
+    <item
+        android:id="@+id/LastClick"
+        android:icon="@drawable/baseline_description_black_24dp"
+        android:iconTint="#000000"
+        android:title="@string/LastClick"
+        app:showAsAction="ifRoom" />
+</menu>
